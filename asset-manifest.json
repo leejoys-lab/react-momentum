@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/react-momentum/static/css/main.abea6723.css",
+    "main.js": "/react-momentum/static/js/main.1dd1bbe4.js",
+    "static/media/bg.jpg": "/react-momentum/static/media/bg.75714e114cbc7c163d6a.jpg",
+    "index.html": "/react-momentum/index.html",
+    "main.abea6723.css.map": "/react-momentum/static/css/main.abea6723.css.map",
+    "main.1dd1bbe4.js.map": "/react-momentum/static/js/main.1dd1bbe4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.abea6723.css",
+    "static/js/main.1dd1bbe4.js"
+  ]
+}
