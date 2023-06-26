@@ -1,0 +1,27 @@
+.Greet {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 60px;
+    animation : slide-up 0.5s ease-in-out;
+    opacity: 1;
+}
+  
+.getGreetingMessage {
+    position: absolute;
+    left:50%; top: 40%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+    font-size: 50px;
+    animation : slide-up 0.5s ease-in-out;
+    opacity: 1;
+  }
+  
+  @keyframes slide-up{
+    from{
+        opacity: 0;
+        top:41%
+    }to{
+        opacity: 1;
+        top:40%
+    }
+  }

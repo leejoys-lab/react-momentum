@@ -1,0 +1,37 @@
+.Header {
+  display: flex;
+  flex-direction: column;
+
+  nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    left: 0;
+    top: 0;
+  }
+
+  .react-icon {
+    font-size: 34px;
+    color:rgba(255,255,255,0.4);
+    transition: 0.3s;
+    margin-right: 10px;
+    cursor: pointer;
+
+    &:hover {
+      color: #fff;
+    }
+  }
+
+  #log-out {
+    background: transparent;
+    border: none;
+  }
+
+  .Navigation {
+    display: flex;
+    align-items: center;
+    height: 60px;
+  }
+}

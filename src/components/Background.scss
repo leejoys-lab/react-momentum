@@ -1,0 +1,41 @@
+.Background{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    background: #000;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url(../assets/images/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    left: 0;
+    top: 0;
+    z-index: -100;
+}
+
+.Cover{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    transition: background-color 2s ease-in-out;
+    pointer-events: none;
+    z-index: -1;
+  }
+
+.Cover.on {
+animation: cover-fade-in-out 2s forwards;
+}
+
+@keyframes cover-fade-in-out {
+    0% {
+      background-color: rgba(0, 0, 0, 0);
+    }
+    20% {
+      background-color: rgba(0, 0, 0, 1);
+    }
+    100% {
+      background-color: rgba(0, 0, 0, 0);
+    }
+  }
