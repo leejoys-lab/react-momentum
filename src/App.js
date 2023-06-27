@@ -11,11 +11,13 @@ function App() {
     <div>
       <Background />
 
-      <BrowserRouter>
+      <BrowserRouter basename='/react-momentum'>
+        {" "}
+        {/* basename을 "/react-momentum"으로 설정 */}
         <Routes>
           <Route path='/' element={<Main />} />
-          <Route path='/Home/' element={<Home />} />
-          <Route path='/Todos/' element={<Todos />} />
+          <Route path='/Home' element={<Home />} />
+          <Route path='/Todos' element={<Todos />} />
         </Routes>
       </BrowserRouter>
     </div>
