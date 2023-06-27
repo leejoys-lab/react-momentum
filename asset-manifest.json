@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/react-momentum/static/css/main.0ad246af.css",
-    "main.js": "/react-momentum/static/js/main.52383ead.js",
+    "main.js": "/react-momentum/static/js/main.b43dc320.js",
     "static/media/bg.jpg": "/react-momentum/static/media/bg.75714e114cbc7c163d6a.jpg",
     "index.html": "/react-momentum/index.html",
     "main.0ad246af.css.map": "/react-momentum/static/css/main.0ad246af.css.map",
-    "main.52383ead.js.map": "/react-momentum/static/js/main.52383ead.js.map"
+    "main.b43dc320.js.map": "/react-momentum/static/js/main.b43dc320.js.map"
   },
   "entrypoints": [
     "static/css/main.0ad246af.css",
-    "static/js/main.52383ead.js"
+    "static/js/main.b43dc320.js"
   ]
 }
